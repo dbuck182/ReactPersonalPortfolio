@@ -2,8 +2,8 @@ import {Box, Typography} from "@mui/material"
 
 const FrontPage = () => {
     return (
-        <Box sx={{display: "flex", height: "100vh",alignItems: "center", justifyContent: "space-between", paddingTop: 4, paddingLeft: 2, paddingRight: 2, marginBottom: 0}}>
-            <Typography variant="h1" sx={{color: "primary.contrastText"}}>Drew Buck</Typography>
+        <Box id="Home" sx={{display: "flex", height: "100vh", alignItems: "center", justifyContent: "center", paddingTop: 4, paddingLeft: 2, paddingRight: 2, marginBottom: 0}}>
+            <Typography variant="h1" sx={{color: "primary.contrastText", paddingRight: 5}}>Drew Buck</Typography>
             <Box
                 component='img'
                 src="/IMG_1332.jpg"
