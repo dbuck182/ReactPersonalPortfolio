@@ -8,14 +8,13 @@ const Education = () => {
     ]
 
     return (
-        <Box id="Education" sx={{bgcolor: "primary.main", height: "100vh", paddingTop: 10, display: "flex", flexDirection: "column", alignItems: "center"}}>
-            <Typography variant="h3" textAlign={'center'} sx={{color: "primary.contrastText",}}>Education</Typography>
+        <Box id="Education" sx={{bgcolor: "primary.main", height: "100vh", paddingTop: 10, display: "flex", flexDirection: "column", alignItems: "center", width: "100%"}}>
+            <Typography variant="h3" textAlign={'center'} sx={{color: "primary.contrastText"}}>Education</Typography>
             <Stack spacing={2}>
                 {degrees.map((degree) => {
                     return (
                             <EducationCard education={degree}/>
                     )
-                    
                 })}
             </Stack>
         </Box>

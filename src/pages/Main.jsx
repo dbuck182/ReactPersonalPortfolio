@@ -6,7 +6,7 @@ import NavBar from '../components/NavBar';
 
 const Main = () => {
     return (
-        <Box mb={0} mt={0}>
+        <Box mb={0} mt={0} sx={{display: "flex", flexDirection: "column", alignItems: "center"}}>
             <NavBar />
             <FrontPage />
             <WorkExperience />
