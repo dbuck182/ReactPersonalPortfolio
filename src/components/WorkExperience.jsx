@@ -35,7 +35,7 @@ const WorkExperience = () => {
                         }]
 
     return (
-        <Box id="Experience" sx={{bgcolor: "primary.main", marginTop: 0, p: 3, marginBottom: 3, paddingTop: 10}}>
+        <Box id="Experience" sx={{bgcolor: "primary.main", marginTop: 0, p: 3, paddingTop: 10}}>
             <Typography variant="h2" sx={{color: "primary.contrastText", textAlign: "center"}}>Past Experience</Typography>
             <Box sx={{display: "flex", flexDirection: "column" ,justifyContent: "space-between", alignItems: "center" ,paddingTop: 4, paddingLeft: 2, paddingRight: 2, gap: 2}}>
                 {experience.map((exper) => (
