@@ -13,6 +13,7 @@ const Main = () => {
             <WorkExperience />
             <Education />
             <Projects />
+            
         </Box>
     )
 }
