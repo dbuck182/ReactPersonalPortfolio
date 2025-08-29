@@ -3,14 +3,16 @@ import FrontPage from '../components/FrontPage';
 import WorkExperience from '../components/WorkExperience';
 import Education from '../components/Education';
 import NavBar from '../components/NavBar';
+import Projects from '../components/Projects';
 
 const Main = () => {
     return (
-        <Box mb={0} mt={0} sx={{display: "flex", flexDirection: "column", alignItems: "center", bgcolor: "primary.light",}}>
+        <Box pb={10} mt={0} sx={{display: "flex", flexDirection: "column", alignItems: "center", bgcolor: "primary.light",}}>
             <NavBar />
             <FrontPage />
             <WorkExperience />
             <Education />
+            <Projects />
         </Box>
     )
 }

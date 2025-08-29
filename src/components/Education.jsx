@@ -8,7 +8,7 @@ const Education = () => {
     ]
 
     return (
-        <Box id="Education" sx={{bgcolor: "primary.main", paddingTop: 10, display: "flex", flexDirection: "column", alignItems: "center", width: "100%"}}>
+        <Box id="Education" sx={{bgcolor: "primary.main", paddingTop: 10, display: "flex", flexDirection: "column", alignItems: "center", width: "100%", pb: 10}}>
             <Typography variant="h3" textAlign={'center'} sx={{color: "primary.contrastText"}}>Education</Typography>
             <Stack spacing={2} directtion="column" alignItems="center">
                 {degrees.map((degree) => {
