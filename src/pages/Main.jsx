@@ -4,6 +4,7 @@ import WorkExperience from '../components/WorkExperience';
 import Education from '../components/Education';
 import NavBar from '../components/NavBar';
 import Projects from '../components/Projects';
+import Links from '../components/Links'
 
 const Main = () => {
     return (
@@ -13,7 +14,7 @@ const Main = () => {
             <WorkExperience />
             <Education />
             <Projects />
-            
+            <Links />
         </Box>
     )
 }

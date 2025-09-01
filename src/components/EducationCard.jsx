@@ -17,7 +17,7 @@ const bull = (
 
 export default function EducationCard(props) {
   return (
-    <Card sx={{ maxWidth: "60%", minWidth: "60%" ,margin: "0 auto"}}>
+    <Card sx={{flex: 1, margin: "0 auto", m: 1}}>
       <CardContent sx={{display: "flex", flexDirection: "column", alignItems: "center"}}>
         <Typography variant="h5" component="div">
           {props.education.School}
@@ -29,9 +29,10 @@ export default function EducationCard(props) {
                 src={props.education.img}
                 alt="Profile"
                 sx= {{
-                    width: "50%",
-                    height: "auto",
-                    boxShadow: 3,
+                    width: "30%",
+                    height: "auto"
+                    ,
+                    //boxShadow: 3,
                     // border: '2px solid #1976d2',
                 }}
             />

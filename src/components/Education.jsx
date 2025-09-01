@@ -1,4 +1,4 @@
-import { Typography, Box, Stack} from "@mui/material"
+import { Typography, Box, Stack, Grid} from "@mui/material"
 import EducationCard from "./EducationCard"
 
 const Education = () => {
@@ -10,12 +10,15 @@ const Education = () => {
     return (
         <Box id="Education" sx={{bgcolor: "primary.main", paddingTop: 10, display: "flex", flexDirection: "column", alignItems: "center", width: "100%", pb: 10}}>
             <Typography variant="h3" textAlign={'center'} sx={{color: "primary.contrastText"}}>Education</Typography>
-            <Stack spacing={2} directtion="column" alignItems="center">
+            <Box display={"flex"} flexDirection={"row"} p={3}>
                 {degrees.map((degree) => {
                     return (
-                            <EducationCard education={degree}/>
+                        <EducationCard education={degree}/>
                     )
                 })}
+            </Box>
+            <Stack spacing={2} directtion="column" alignItems="center">
+                
             </Stack>
         </Box>
     )
